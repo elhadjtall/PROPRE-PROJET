@@ -23,6 +23,12 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+/* Cette partie permet de deplacer les les texts du home content en les rendant visibles */
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+/* mise en forme du header */
 .header {
     position: fixed;
     top: 0;
@@ -35,16 +41,22 @@ body {
     align-items: center;
     z-index: 100;
 }
+/* Mse en du logo de mon site */
 .logo {
     font-size: 20px;
     color: var(--main-color);
     cursor: default;
 }
+/* Mise en forme des liens du site  */
 .navbar a{
     color: var(--text-color);
     padding: 10px;
     font-size: 2.0rem;
+    transition: 0.5s ease;
 }
 .navbar:hover a{
     color: var(--main-color);
+}
+.home {
+
 }

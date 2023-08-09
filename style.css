@@ -77,6 +77,9 @@ section {
     font-weight: 500;
 }
 .icon-social a {
-    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
     color: var(--main-color);
 }

@@ -80,6 +80,8 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
+    border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
 }

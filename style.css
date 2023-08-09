@@ -84,4 +84,12 @@ section {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+}
+/* Mise en forme du social media avec la couleur */
+.icon-social a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }

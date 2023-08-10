@@ -109,3 +109,6 @@ section {
     font-weight: 600;
     transition: .5s ease;
 }
+.imag-content {
+    font-size: 35vh;
+}
